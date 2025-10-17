@@ -35,7 +35,7 @@ body {
   padding: 1rem;
 
   /* Fondo Adaptable y Fijo (Ajustado a tus requisitos) */
-  background-image: url('../img/FondoPets.jpg');
+  background-image: url('../img/fondoPets.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center bottom;
