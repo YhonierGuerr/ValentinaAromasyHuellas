@@ -98,7 +98,7 @@ h2 {
 }
 
 /* ==============================
-    BOTONES DE CONTACTO
+    BOTONES DE CONTACTO (ACTUALIZADO CON MAPS)
     ============================== */
 .buttons {
   display: flex;
@@ -137,6 +137,12 @@ h2 {
   background-color: var(--color-instagram);
 }
 
+/* NUEVO Botón de Ubicación (Azul Google) */
+.btn.location-btn {
+  background-color: #4285F4; /* Azul Google */
+}
+
+
 /* Efectos hover */
 .btn.whatsapp:hover {
   transform: scale(1.05);
@@ -148,6 +154,10 @@ h2 {
   box-shadow: 0 4px 10px rgba(225, 48, 108, 0.3);
 }
 
+.btn.location-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(66, 133, 244, 0.3); /* Sombra basada en el Azul Google */
+}
 
 /* ==============================
     UBICACIÓN
