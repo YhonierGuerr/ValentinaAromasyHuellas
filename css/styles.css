@@ -7,6 +7,7 @@
   --color-text: #333333; 
   --color-whatsapp: #25d366; /* Verde Sólido */
   --color-instagram: #e1306c;
+  --color-maps: #4285F4;
   --font-main: 'Poppins', sans-serif;
 }
 
@@ -139,7 +140,7 @@ h2 {
 
 /* NUEVO Botón de Ubicación (Azul Google) */
 .btn.location-btn {
-  background-color: #4285F4; /* Azul Google */
+  background-color: var(--color-maps);/* Azul Google */
 }
 
 
